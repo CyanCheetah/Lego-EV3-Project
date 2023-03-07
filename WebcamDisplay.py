@@ -33,3 +33,5 @@ while not btn.down:
         time.sleep(5)
         subprocess.run(['sudo', 'fbi', '-T', '1', '-noverbose', '-a', '/home/robot/image.bmp'])
         time.sleep(10)
+#To Run this program, in the ssh do: sudo python3 /home/robot/ev3/ev3/tests/code/WebcamDisplay.py
+
