@@ -39,3 +39,4 @@ while True:
         subprocess.call(['fswebcam', '-r', '100x100', '--no-banner', filename])
         sound.speak('Image Captured!')
     screen.update()
+#CyanCheetah
